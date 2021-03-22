@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CommentAvatarContainer">
+        <attr name="avatar_count" format="integer"/>
+
+        <attr name="avatar_size" format="integer"/>
+        <attr name="itemOverlap" format="float"/>
+    </declare-styleable>
+</resources>
