@@ -8,15 +8,28 @@
 
     <com.artkachenko.customavatarcontainer.CommentAvatarContainer
         android:id="@+id/avatar_container"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        app:itemOverlap="20"
-        app:avatar_count="4"
-        app:avatar_size="40"
+        app:avatar_size="50"
+        app:itemOverlap="25"
+        app:avatar_count="5"
+        app:layout_constraintHorizontal_bias="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.artkachenko.customavatarcontainer.CommentAvatarContainer
+        android:id="@+id/avatar_container_from_images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:avatar_size="60"
+        app:itemOverlap="40"
+        app:avatar_count="5"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/avatar_container" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
